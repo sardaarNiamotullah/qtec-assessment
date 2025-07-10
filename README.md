@@ -1,5 +1,7 @@
 # 📚 Bookstore App
 
+# The site is live at [qtec-book.vercel.app](https://qtec-book.vercel.app/)
+
 A clean and modern online bookstore built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**. This project demonstrates dynamic routing, state management via React Context, reusable components, and responsive UI using Tailwind. Users can browse books, view detailed information, and add items to a cart and checkout.
 
 ---
