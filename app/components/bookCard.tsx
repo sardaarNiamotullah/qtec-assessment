@@ -1,10 +1,11 @@
-'use client'
+'use client';
 
 import Link from "next/link";
 import Image from "next/image";
 import { useCart } from "../context/cartContext";
+import type { Book } from "../data/books";
 
-export default function BookCard({ book }: { book: any }) {
+export default function BookCard({ book }: { book: Book }) {
   const { addToCart } = useCart();
 
   return (
